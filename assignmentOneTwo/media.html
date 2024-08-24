@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/styles/styles.css" rel="stylesheet"/>
+    <title>My Media Page</title>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="media.html">My Media Page</a></li>
+                <li><a href="table.html">AlSchool Courses</a></li>
+                <li><a href="form.html">Join AltSchool</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>About Me</h2>
+        <p1>Welcome to my media page</p1>        
+        <h2>Responsive Image using Picture Element</h2>
+        <picture>
+            <img src="assets/images/represent.jpg" alt="represent"
+            <source media="(min-width=1024px)" srcset="assets/images/represent.jpg">
+            <source media="(min-width=768px)" srcset="assets/images/represent.jpg">
+            <source media="(max-width=767px)" srcset="assets/images/represent.jpg">
+        </picture>
+        <h2>Audio Element</h2>
+    <p>Listen to one of my favorite songs:</p>
+    <audio controls>
+        <source src="assets/audio/about_me.mp3">
+    </audio>
+    </main>
+    <footer>
+        <p>&copy 2024 AltSchool Africa Student</p>
+    </footer>
+    
+</body>
+</html>

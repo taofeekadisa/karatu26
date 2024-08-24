@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/styles/styles.css" rel="stylesheet"/>
+    <title>Apply to AltSchool</title>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="media.html">My Media Page</a></li>
+                <li><a href="table.html">AlSchool Courses</a></li>
+                <li><a href="form.html">Join AltSchool</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Signup</h2>
+        <p>Take the next steps to apply at AltSchool Africa</p>
+        <form action="#" method="POST">
+            <section>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" required>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" required>
+            </section><br>
+            <section>
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender required">
+                    <option value="" disabled selected>Select gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob">
+            </section><br>
+            <section>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+                <label for="pnumber">Phone Number</label>
+                <input type="tel" id="pnumber" name="pnumber" required>
+            </section><br>
+            <section>
+                <label for="country">Country</label>
+                <input type="country" id="country" name="country" required>
+                <label for="state">State/City of Residence</label>
+                <input type="state" id="state" name="state" required>
+            </section><br>
+            <section>
+                <label for="aboutus">How did you hear about us?</label>
+                <input type="aboutus" id="aboutus" name="about">
+            </section><br>
+            <section>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <label for="cpassowrd">Confirm Password</label>
+                <input type="password" id="cpassword" name="cpassword" required>
+            </section><br>
+            <p>By clicking continue, I agree to  <a href="">Terms of Use</a>and acknowledge that I
+                have read the  <a href="">Privacy Policy</a>.</p>
+            <section>
+                <button type="submit">Submit</button>
+            </section>
+            
+        </form>
+    </main>
+    <footer>
+        <p>&copy 2024 AltSchool Africa Student</p>
+    </footer>
+</body>
+</html>
